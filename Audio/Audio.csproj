@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{F51B14CE-8BA1-4886-8B72-10CCACE8ED7B}</ProjectGuid>
+    <ProjectGuid>{23ABF12F-3F78-42EB-A2E3-63617AFD975B}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Lab1</RootNamespace>
-    <AssemblyName>Lab1</AssemblyName>
+    <RootNamespace>Audio</RootNamespace>
+    <AssemblyName>Audio</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -94,18 +94,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Audio.html" />
-    <Content Include="Audio\NeonHeart-EndlessGrace.mp3" />
-    <Content Include="AutoAudio.html" />
-    <Content Include="Images\Helltothecat.PNG" />
-    <Content Include="Images\Helltotheyes.PNG" />
-    <Content Include="Images\Starwars.PNG" />
-    <Content Include="OmMig.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Video\MrBean.webm" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -114,10 +106,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="HtmlPage1.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
-    <Content Include="Videos.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -136,9 +126,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>10088</DevelopmentServerPort>
+          <DevelopmentServerPort>10178</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:10088/</IISUrl>
+          <IISUrl>http://localhost:10178/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
