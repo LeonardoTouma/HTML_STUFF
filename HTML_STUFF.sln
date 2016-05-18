@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1", "Lab1\Lab1.csproj", "{F51B14CE-8BA1-4886-8B72-10CCACE8ED7B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1And2", "Lab1\Lab1And2.csproj", "{F51B14CE-8BA1-4886-8B72-10CCACE8ED7B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTMLPLEASE", "HTMLPLEASE\HTMLPLEASE.csproj", "{08C9A655-8FFB-4B56-A00E-BD061E5BDBB4}"
 EndProject
