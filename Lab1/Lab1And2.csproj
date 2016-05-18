@@ -99,7 +99,7 @@
     <Content Include="AutoAudio.html" />
     <Content Include="Computer.html" />
     <Content Include="ImagesToLab2\Asus Transformer Book T100HA- 2990.PNG" />
-    <Content Include="ImagesToLab2\HP 250 G4-5590 - kopia.PNG" />
+    <Content Include="ImagesToLab2\HP 250 G4-5590.PNG" />
     <Content Include="ImagesToLab2\HP 250-G4-3740.PNG" />
     <Content Include="ImagesToLab2\HP ProBook 430 G3-6990.PNG" />
     <Content Include="ImagesToLab2\HP ProBook 650-12790.PNG" />
@@ -117,6 +117,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Styles\Styling.css" />
     <Content Include="Video\MrBean.webm" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
