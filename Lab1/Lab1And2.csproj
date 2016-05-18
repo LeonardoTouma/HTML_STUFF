@@ -98,6 +98,9 @@
     <Content Include="Audio\NeonHeart-EndlessGrace.mp3" />
     <Content Include="AutoAudio.html" />
     <Content Include="Computer.html" />
+    <Content Include="Formulär\DeliveryAddress.html" />
+    <Content Include="Formulär\PaymentAddress.html" />
+    <Content Include="Formulär\UserInfo.html" />
     <Content Include="ImagesToLab2\Asus Transformer Book T100HA- 2990.PNG" />
     <Content Include="ImagesToLab2\HP 250 G4-5590.PNG" />
     <Content Include="ImagesToLab2\HP 250-G4-3740.PNG" />
@@ -117,6 +120,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="receipt\recipe.html" />
     <Content Include="Styles\Styling.css" />
     <Content Include="Video\MrBean.webm" />
     <None Include="Web.Debug.config">
