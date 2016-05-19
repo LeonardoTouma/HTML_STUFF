@@ -5,6 +5,45 @@
 	<meta charset="utf-8" />
 </head>
 <body>
+    <form action="../Kvitto.html" name="myform" />
+    <fieldset>
+        <legend>User Info!</legend>
+        <label for="name">Name:</label>
+        <input id="name" name="Name" placeholder="Name" />
 
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="Email" required placeholder="Email" />
+        </fieldset>
+        <fieldset>
+
+        <legend>Delivery Adress</legend>
+
+        <label for="street">Street</label>
+        <input id="street" name="Street" placeholder="Street.." />
+
+        <label for="zip">Zip</label>
+        <input id="zip" name="Zip" placeholder="Zip..." />
+
+        <label for="town">Town</label>
+        <input id="town" name="Town" placeholder="Town..." />
+
+        <label for="phoneNumber">PhoneNumber</label>
+        <input id="phonenumber" name="PhoneNumber" placeholder="Phone number..." />
+            </fieldset>
+    <fieldset>
+        <legend>Payment</legend>
+
+        <label for="AccountNumber">Account Number</label>
+        <input id="AccountNumber" name="Phone Number" placeholder="AccountNumber" />
+
+        <label for="projectnumber">Project Number</label>
+        <input id="projectnumber" name="Project Number" required placeholder="Projekt number..." />
+
+        <input type="submit" value="Send" />
+        <input type="reset" value="Reset info!" />
+    </fieldset>
 </body>
 </html>
