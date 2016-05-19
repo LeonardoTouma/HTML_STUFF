@@ -101,16 +101,7 @@
     <Content Include="Formulär\DeliveryAddress.html" />
     <Content Include="Formulär\PaymentAddress.html" />
     <Content Include="Formulär\UserInfo.html" />
-    <Content Include="ImagesToLab2\Asus Transformer Book T100HA- 2990.PNG" />
-    <Content Include="ImagesToLab2\HP 250 G4-5590.PNG" />
-    <Content Include="ImagesToLab2\HP 250-G4-3740.PNG" />
     <Content Include="ImagesToLab2\HP ProBook 430 G3-6990.PNG" />
-    <Content Include="ImagesToLab2\HP ProBook 650-12790.PNG" />
-    <Content Include="ImagesToLab2\Lenovo 500S white-4490.PNG" />
-    <Content Include="ImagesToLab2\Lenovo B50-10-2490.PNG" />
-    <Content Include="ImagesToLab2\Lenovo B51-80-6240.PNG" />
-    <Content Include="ImagesToLab2\Lenovo IdeaPad 100-4490.PNG" />
-    <Content Include="ImagesToLab2\Toshiba Portege z30-B-11T-10000.PNG" />
     <Content Include="Images\Helltothecat.PNG" />
     <Content Include="Images\Helltotheyes.PNG" />
     <Content Include="Images\Starwars.PNG" />

@@ -95,8 +95,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AndraSidanFormulär.html" />
-    <Content Include="flyghemsida.html" />
-    <Content Include="InputOchEmpty.html" />
+    <Content Include="Flyg\flyghemsida.html" />
+    <Content Include="Flyg\InputOchEmpty.html" />
+    <Content Include="NewFolder1\Helltothecat.PNG" />
+    <Content Include="NewFolder1\Knappar.html" />
+    <Content Include="NewFolder1\YEAAAAAAAAAAAAAAAAAAAA.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

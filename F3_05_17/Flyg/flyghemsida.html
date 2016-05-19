@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Flygstolen</title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                Från:
+                <input name="FrånList" list="Från" />
+                Till:
+                <datalist id="Från">
+                    <option value="Stockholm" />
+                    <option value="Malmö" />
+                    <option value="JönKöping" />
+                    <option value="Lund" />
+                    <option value="Eslöv" />
+                    <option value="Helsingborg" />
+                    <option value="GöteBorg" />
+                    <option value="Jonstorp" />
+                    <option value="NorrKöping" />
+                    <option value="Kastrup" />
+                </datalist>
+                <input name="Vuxna" list="Vuxna" />
+                Antalet Vuxna:
+                <select id="Vuxna">
+                    <optgroup label="Vuxna">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </optgroup>
+                </select>
+                Antalet Barn:
+                <select id="Barn">
+                    <optgroup label="Barn">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+
+                    </optgroup>
+                </select>
+            </tr>
+            <tr></tr>
+            <br />
+            <br />
+            <input type="date" name="Avresedatum" />
+            Hemresa
+            <input type="date" name="Hemresa" />
+            Klasser:
+            <input name="klass" list="Klasser" />
+            <datalist id="Klasser">
+                <option value="Busniess">Busniess</option>
+                <option value="Ekonomi">Ekonomi</option>
+                <option value="Premiumekonomi">Premiumekonomi</option>
+            </datalist>
+            Flygbolag:
+            <input name="FlygBolag" list="flygbolag" />
+            <td>
+                <datalist id="flygbolag">
+                    <option value="United Airlines">United Airlines</option>
+                    <option value="Delta Airlines">Delta Airlines</option>
+                    <option value="American Airlines">	American Airlines</option>
+                    <option value="Lufthansa">Lufthansa</option>
+                    <option value="China Southern Airlines">China Southern Airlines</option>
+                    <option value="Ryanair">Ryanair</option>
+                    <option value="US Airways">US Airways</option>
+                    <option value="China Eastern Airlines">China Eastern Airlines</option>
+                    <option value="Air France">Air France</option>
+                </datalist>
+            </td>
+            <br />
+            <br />
+            EnkelResa:
+            <input type="checkbox" name="enkelresa" />
+            Direktresa:
+            <input type="checkbox" name="Direktresa" />
+            Hemresa ifrån annan ort:
+            <input type="checkbox" name="Hemresa ifrån annan ort" />
+            Sök flexibelt:
+            <input type="checkbox" name="Sök flexibelt" />
+        </table>
+</form>
+</body>
+</html>
