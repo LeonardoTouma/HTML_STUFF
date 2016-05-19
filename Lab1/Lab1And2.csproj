@@ -99,12 +99,14 @@
     <Content Include="AutoAudio.html" />
     <Content Include="Computer.html" />
     <Content Include="Formulär\DeliveryAddress.html" />
+    <Content Include="Formulär\HelhetForm.html" />
     <Content Include="Formulär\PaymentAddress.html" />
     <Content Include="Formulär\UserInfo.html" />
     <Content Include="ImagesToLab2\HP ProBook 430 G3-6990.PNG" />
     <Content Include="Images\Helltothecat.PNG" />
     <Content Include="Images\Helltotheyes.PNG" />
     <Content Include="Images\Starwars.PNG" />
+    <Content Include="Kvitto.html" />
     <Content Include="OmMig.html" />
     <Content Include="order.html" />
     <Content Include="packages.config" />

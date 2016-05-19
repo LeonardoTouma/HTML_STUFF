@@ -119,7 +119,6 @@
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="scripts\Styles\Mystyle1.css" />
-    <Content Include="Style121.css" />
     <Content Include="StyleYES.css" />
     <Content Include="Web.config" />
   </ItemGroup>
