@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <style>
+        body{
+            background-color:%23808040;
+        }
+
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Input of plenty</h1>
+        Aggressiva kanins namn:
+        <input type="text" name="name" maxlength="4" placeholder="Förnamn..." autofocus /><br />
+        <!----Password-->
+        Password:
+        <input type="password" name="Password" maxlength="16" /><br />
+        <!--CheckBox-->
+        Vilka färger gillar du:<br />
+        <input type="checkbox" name="Färg" placeholder="Färg" value="Brun" />Brun<br />
+        <input type="checkbox" checked name="färg" value="lila" />lila<br />
+        <input type="checkbox" name="färg" value="Rosa" />Rosa<br />
+        <input type="checkbox" name="färg" value="Grön" />Grön<br />
+        <input type="color" name="Färg2" />
+        
+        <!--RadioButton-->
+        <!--Datalist cool...-->
+        Kön:<br />
+        <input type="text" name="sex" list="mylist"/>
+        <datalist id="mylist">
+            <option label="radio" value="man"> if you go to the mens room</option>
+            <option label="radio" value="Kvinna" >if you go to the Ladies room</option>
+            <option label="radio"value="Androgryn">if you go somewhere else</option>
+        </datalist>
+        <!--EN DATALISTA MED BILAR-->
+        <input name="carmodels" list="Cars"/>
+        <datalist id="Cars">
+            <option value="Audi"/>
+            <option value="Alfa romeo"/>
+            <option value="Alpin" />
+            <option value="Amc" />
+            <option value="Austin" />
+            <option value="AutoBianchi" />
+            <option value="BMV" />
+            <option value="Bugatti" />
+            <option value="Buick" />
+            <option value="Byd" />
+        </datalist>
+        <!--DropDown-->
+        <select id="fordon">
+            <optgroup label="Bilar">
+                <option value="Audi">Audi</option>
+                <option value="BMW">BMW</option>
+                <option value="Ford">Ford</option>
+                <option value="Volvo">Volvo</option>
+            </optgroup>
+            <optgroup label="Cyklar">
+                <option value="Yamaha">Yamaha</option>
+                <option value="Honda">Honda</option>
+                <option value="Volvo">Volvo</option>
+                <option value="Suzuki">Suzuki</option>
+            </optgroup>
+        </select>
+        <input type="submit" value="Send" />
+    </form>
+</body>
+</html>

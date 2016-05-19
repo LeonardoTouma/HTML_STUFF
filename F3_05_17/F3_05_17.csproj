@@ -94,6 +94,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AndraSidanFormulär.html" />
+    <Content Include="flyghemsida.html" />
+    <Content Include="InputOchEmpty.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -106,11 +109,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FieldsetLegend.html" />
+    <Content Include="Formulär\FieldSet.html" />
     <Content Include="Formulär\Formulär_demo.html" />
     <Content Include="Index.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="scripts\Styles\Mystyle1.css" />
+    <Content Include="Style121.css" />
     <Content Include="StyleYES.css" />
     <Content Include="Web.config" />
   </ItemGroup>
