@@ -14,11 +14,22 @@
 #moving ul
 {
     list-style-type:none;
+
 }
 #moving li{
     border:2px solid rgba(75,83,170,0.87);
     width:70%;
+    margin:5px;
+    padding:7px;
+    font-size:1.4em;
+    
 
+}
+#moving li a{
+    text-decoration:none;
+    text-transform:uppercase;
+    color:black;
+    font-weight:800;
 }
 
 
