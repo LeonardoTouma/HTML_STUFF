@@ -97,6 +97,12 @@
     <Content Include="AndraSidanFormulär.html" />
     <Content Include="Flyg\flyghemsida.html" />
     <Content Include="Flyg\InputOchEmpty.html" />
+    <Content Include="LekÖvningBild\Bilder\Bilarararar.PNG" />
+    <Content Include="LekÖvningBild\Bilder\Cykel.PNG" />
+    <Content Include="LekÖvningBild\Bilder\Kannot.PNG" />
+    <Content Include="LekÖvningBild\Bilder\Keps.PNG" />
+    <Content Include="LekÖvningBild\Lekövning.html" />
+    <Content Include="LekÖvningBild\Styles.css" />
     <Content Include="NewFolder1\Helltothecat.PNG" />
     <Content Include="NewFolder1\Knappar.html" />
     <Content Include="NewFolder1\YEAAAAAAAAAAAAAAAAAAAA.html" />
@@ -125,6 +131,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

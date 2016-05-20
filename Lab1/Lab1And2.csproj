@@ -106,6 +106,7 @@
     <Content Include="Images\Helltothecat.PNG" />
     <Content Include="Images\Helltotheyes.PNG" />
     <Content Include="Images\Starwars.PNG" />
+    <Content Include="Pages\InputLearn.html" />
     <Content Include="Pages\Kvitto.html" />
     <Content Include="Pages\OmMig.html" />
     <Content Include="Pages\order.html" />
