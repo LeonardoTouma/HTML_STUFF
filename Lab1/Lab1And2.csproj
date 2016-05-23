@@ -94,6 +94,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Grid system\Grid.html" />
+    <Content Include="Lab3\Lab3.html" />
+    <Content Include="Lab3\Styling.css" />
     <Content Include="Pages\Audio.html" />
     <Content Include="Audio\NeonHeart-EndlessGrace.mp3" />
     <Content Include="Pages\AutoAudio.html" />
