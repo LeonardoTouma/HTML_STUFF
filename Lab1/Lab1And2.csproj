@@ -114,6 +114,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Pages\SubCode.html" />
     <Content Include="Questions\I.html" />
     <Content Include="Questions\II.html" />
     <Content Include="Questions\III.html" />
