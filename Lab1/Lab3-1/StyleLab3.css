@@ -17,8 +17,10 @@
         display: none;
         font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     }
-     #printer{
+
+    #printscreen {
         display: none;
+        font-family:'Agency FB';
     }
 }
 
@@ -39,9 +41,9 @@
 
     #tablet {
         text-align: center;
-        display:inherit;
     }
-     #printer{
+
+    #printscreen {
         display: none;
     }
 }
@@ -64,7 +66,8 @@
     #tablet {
         display: none;
     }
-     #printer{
+
+    #printscreen {
         display: none;
     }
 }
@@ -73,11 +76,10 @@
 
     body {
         background-color: white;
-        display: inherit;
+      
     }
      #screen {
-        text-align: center;
-        display: none;
+      display: none;
     }
 
     #mobile {
@@ -87,8 +89,10 @@
     #tablet {
         display: none;
     }
-    #printer{
-         text-align: center;
+
+    #printscreen {
         display: inherit;
+        text-align: center;
+
     }
 }
