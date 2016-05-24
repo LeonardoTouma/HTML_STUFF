@@ -17,7 +17,7 @@
 
 }
 #moving li{
-    border:2px solid rgba(75,83,170,0.87);
+    border:5px solid rgba(75,83,170,0.87);
     width:70%;
     margin:5px;
     padding:7px;
@@ -28,8 +28,8 @@
 #moving li a{
     text-decoration:none;
     text-transform:uppercase;
-    color:black;
-    font-weight:800;
+    color:rgb(255, 0, 110);
+    font-weight:900;
 }
 
 

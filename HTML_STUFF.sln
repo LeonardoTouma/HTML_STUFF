@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1And2", "Lab1\Lab1And2.csproj", "{F51B14CE-8BA1-4886-8B72-10CCACE8ED7B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1And2And3", "Lab1\Lab1And2And3.csproj", "{F51B14CE-8BA1-4886-8B72-10CCACE8ED7B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTMLPLEASE", "HTMLPLEASE\HTMLPLEASE.csproj", "{08C9A655-8FFB-4B56-A00E-BD061E5BDBB4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F3_05_17", "F3_05_17\F3_05_17.csproj", "{1B999457-7CAF-4209-B063-E11AFBFE941D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxModell", "BoxModell\BoxModell.csproj", "{D3FC4A2A-F8B4-4CDA-AAF3-AFFBFFAC4F4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab4", "Lab4\Lab4.csproj", "{D3510120-7E4D-42DF-88CB-C1426CFC22EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{D3FC4A2A-F8B4-4CDA-AAF3-AFFBFFAC4F4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3FC4A2A-F8B4-4CDA-AAF3-AFFBFFAC4F4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3FC4A2A-F8B4-4CDA-AAF3-AFFBFFAC4F4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3510120-7E4D-42DF-88CB-C1426CFC22EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3510120-7E4D-42DF-88CB-C1426CFC22EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3510120-7E4D-42DF-88CB-C1426CFC22EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3510120-7E4D-42DF-88CB-C1426CFC22EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

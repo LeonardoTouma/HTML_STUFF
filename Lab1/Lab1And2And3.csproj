@@ -95,6 +95,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Grid system\Grid.html" />
+    <Content Include="Grid system\Style me.css" />
+    <Content Include="ImageLab3\Asus Transformer Book T100HA- 2990.PNG" />
+    <Content Include="ImageLab3\Lenovo B50-10-2490.PNG" />
+    <Content Include="ImageLab3\Lenovo IdeaPad 100-4490.PNG" />
     <Content Include="Lab3\Lab3.html" />
     <Content Include="Lab3\Styling.css" />
     <Content Include="Pages\Audio.html" />
