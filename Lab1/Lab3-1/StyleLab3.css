@@ -96,3 +96,35 @@
 
     }
 }
+#Meny{
+    width:60%;
+}
+#wrapper{
+
+}
+#moving {
+    background-color: rgba(150,150,150,.8);
+    border-radius: 30%/20%;
+    position: fixed;
+    bottom: 100px;
+    left: 1500px;
+}
+
+    #moving ul {
+        list-style-type: none;
+    }
+
+    #moving li {
+        border: 5px solid rgba(80,85,180,0.9);
+        width: 70%;
+        margin: 5px;
+        padding: 7px;
+        font-size: 1.4em;
+    }
+
+        #moving li a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: black;
+            font-weight: 800;
+        }

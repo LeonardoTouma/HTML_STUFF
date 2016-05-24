@@ -1,40 +1,46 @@
 ﻿body {
-    font-family:ReenieBeanie regular;
+    font-family:'Book Antiqua';
 }
 
 .quote-container {
     margin-top: 50px;
     position: absolute;
-    padding-left:10px;
+    padding-left: 10px;
 }
+
 .quote-containerr {
     margin-top: 50px;
     position: relative;
-    float:none;
+    float: none;
 }
+
 .quote-containerrr {
     margin-top: 50px;
     position: relative;
-    float:right;
+    float: right;
 }
-.note:hover{
-    width:300px;
-    height:300px;
-    background-color:red;
-    color:green;
+
+.note:hover {
+        font-family:'Book Antiqua';
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    color: green;
 }
+
 .note {
+    font-family:'Book Antiqua';
     color: #333;
     position: relative;
     width: 300px;
-    height:200px;
+    height: 200px;
     margin: 0 auto;
     padding: 20px;
     font-family: satisfy;
     font-size: 30px;
     box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
-   
 }
+
 .notee {
     color: #333;
     position: relative;
@@ -45,6 +51,7 @@
     font-size: 30px;
     box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
 }
+
 .noteee {
     color: #333;
     position: relative;
@@ -56,21 +63,23 @@
     box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
 }
 
-    .note .author {
-        display: block;
-        margin: 40px 0 0 0;
-        text-align: right;
-    }
-    .notee .author {
-        display: block;
-        margin: 40px 0 0 0;
-        text-align: right;
-    }
-    .noteee .author {
-        display: block;
-        margin: 40px 0 0 0;
-        text-align: right;
-    }
+.note .author {
+    display: block;
+    margin: 40px 0 0 0;
+    text-align: right;
+}
+
+.notee .author {
+    display: block;
+    margin: 40px 0 0 0;
+    text-align: right;
+}
+
+.noteee .author {
+    display: block;
+    margin: 40px 0 0 0;
+    text-align: right;
+}
 
 .yellow {
     background: #eae672;
@@ -104,25 +113,24 @@
         top: -10px;
         width: 12px;
     }
+
     .pin:before {
-  background-color: hsla(0,0%,0%,0.1);
-  box-shadow: 0 0 .25em hsla(0,0%,0%,.1);
-  content: '';
-  height: 24px;
-  width: 2px;
-  left: 0;
-  position: absolute;
-  top: 8px;
-  transform: rotate(57.5deg);
-  -moz-transform: rotate(57.5deg);
-  -webkit-transform: rotate(57.5deg);
-  -o-transform: rotate(57.5deg);
-  -ms-transform: rotate(57.5deg);
-  transform-origin: 50% 100%;
-  -moz-transform-origin: 50% 100%;
-  -webkit-transform-origin: 50% 100%;
-  -ms-transform-origin: 50% 100%;
-  -o-transform-origin: 50% 100%;
-}
-
-
+        background-color: hsla(0,0%,0%,0.1);
+        box-shadow: 0 0 .25em hsla(0,0%,0%,.1);
+        content: '';
+        height: 24px;
+        width: 2px;
+        left: 0;
+        position: absolute;
+        top: 8px;
+        transform: rotate(57.5deg);
+        -moz-transform: rotate(57.5deg);
+        -webkit-transform: rotate(57.5deg);
+        -o-transform: rotate(57.5deg);
+        -ms-transform: rotate(57.5deg);
+        transform-origin: 50% 100%;
+        -moz-transform-origin: 50% 100%;
+        -webkit-transform-origin: 50% 100%;
+        -ms-transform-origin: 50% 100%;
+        -o-transform-origin: 50% 100%;
+    }

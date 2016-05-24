@@ -130,6 +130,8 @@
     <Content Include="Questions\IV.html" />
     <Content Include="Questions\V.html" />
     <Content Include="receipt\recipe.html" />
+    <Content Include="Sista uppgiften för Lab3\Mobile\Mobile.html" />
+    <Content Include="Sista uppgiften för Lab3\Style\Styling.css" />
     <Content Include="Styles\Styling.css" />
     <Content Include="Video\MrBean.webm" />
     <None Include="Web.Debug.config">
