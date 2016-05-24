@@ -99,8 +99,10 @@
     <Content Include="ImageLab3\Asus Transformer Book T100HA- 2990.PNG" />
     <Content Include="ImageLab3\Lenovo B50-10-2490.PNG" />
     <Content Include="ImageLab3\Lenovo IdeaPad 100-4490.PNG" />
-    <Content Include="Lab3\Lab3.html" />
-    <Content Include="Lab3\Styling.css" />
+    <Content Include="Lab3-1\Lab3-1.html" />
+    <Content Include="Lab3-1\Lab3.html" />
+    <Content Include="Lab3-1\StyleLab3.css" />
+    <Content Include="Lab3-1\Styling.css" />
     <Content Include="Pages\Audio.html" />
     <Content Include="Audio\NeonHeart-EndlessGrace.mp3" />
     <Content Include="Pages\AutoAudio.html" />
