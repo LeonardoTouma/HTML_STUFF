@@ -99,10 +99,10 @@
     <Content Include="ImageLab3\Asus Transformer Book T100HA- 2990.PNG" />
     <Content Include="ImageLab3\Lenovo B50-10-2490.PNG" />
     <Content Include="ImageLab3\Lenovo IdeaPad 100-4490.PNG" />
-    <Content Include="Lab3-1\Lab3-1.html" />
-    <Content Include="Lab3-1\Lab3.html" />
-    <Content Include="Lab3-1\StyleLab3.css" />
-    <Content Include="Lab3-1\Styling.css" />
+    <Content Include="Lab3-1\Postit.html" />
+    <Content Include="Lab3-1\OlikaTyper.html" />
+    <Content Include="Lab3-1\StyleFörOlikaTyper.css" />
+    <Content Include="Lab3-1\StyleForPostit.css" />
     <Content Include="Pages\Audio.html" />
     <Content Include="Audio\NeonHeart-EndlessGrace.mp3" />
     <Content Include="Pages\AutoAudio.html" />
@@ -124,15 +124,17 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Pages\SubCode.html" />
-    <Content Include="Questions\I.html" />
-    <Content Include="Questions\II.html" />
-    <Content Include="Questions\III.html" />
-    <Content Include="Questions\IV.html" />
-    <Content Include="Questions\V.html" />
+    <Content Include="Questions I-V\I.html" />
+    <Content Include="Questions I-V\II.html" />
+    <Content Include="Questions I-V\III.html" />
+    <Content Include="Questions I-V\IV.html" />
+    <Content Include="Questions I-V\V.html" />
     <Content Include="receipt\recipe.html" />
+    <Content Include="Sista uppgiften för Lab3\Mobile\Backside.html" />
     <Content Include="Sista uppgiften för Lab3\Mobile\Mobile.html" />
-    <Content Include="Sista uppgiften för Lab3\Style\Styling.css" />
-    <Content Include="Styles\Styling.css" />
+    <Content Include="Sista uppgiften för Lab3\SkickIfrånMobil.html" />
+    <Content Include="Sista uppgiften för Lab3\Style\Backside.css" />
+    <Content Include="Sista uppgiften för Lab3\Style\FrontSide.css" />
     <Content Include="Video\MrBean.webm" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

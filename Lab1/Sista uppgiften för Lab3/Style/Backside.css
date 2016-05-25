@@ -1,0 +1,31 @@
+﻿body {
+}
+#Android{
+  background-color:gray;
+    width: 300px;
+    height: 700px;
+    border-radius: 10%;
+    border-width:10px;
+    margin-top:50px;
+}
+#kamera{
+    border-color:silver;
+    border-width:5px;
+    background-color:black;
+    border-radius:10px;
+    width:30px;
+    height:50px; 
+    margin-left:110px;  
+}
+#kamerainne{
+     background-color:black;
+    border-radius:10px;
+    width:25px;
+    height:30px;  
+}
+#längstinnekamera{
+    border-color:rosybrown;
+    background-color:gray;
+    border-radius:5px;
+    margin-top:7px;
+}
