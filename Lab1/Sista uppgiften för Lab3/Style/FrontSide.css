@@ -70,6 +70,7 @@
     margin-top:30px;
 }
 #abc{
+    float:left;
     border-radius:5px;
     width:25px;
     height:25px;
@@ -77,50 +78,14 @@
     margin-top:10px;
     background-color:red;   
 }
-#abc2{
-    border-radius:5px;
-    width:25px;
-    height:25px;
-    margin-left:10px;
-    margin-top:30px;
-    background-color:#000000;   
-}
-#abc3{
-    border-radius:5px;
-    width:25px;
-    height:25px;
-    margin-left:10px;
-    margin-top:30px;
-    background-color:hotpink;   
-}
-#abc4{
-    border-radius:5px;
-    width:25px;
-    height:25px;
-    margin-left:10px;
-    margin-top:30px;
-    background-color:white;   
-}
-#abc5{
-    border-radius:5px;
-    width:25px;
-    height:25px;
-    margin-left:10px;
-    margin-top:30px;
-    background-color:blue;   
-}
-#abc6{
-    border-radius:5px;
-    width:25px;
-    height:25px;
-    margin-left:10px;
-    margin-top:30px;
-    background-color:green;   
-}
+
 
 #Skicka{
     width:70px;
     height:30px;
+    border-radius:50%;
+    margin-left:110px;
+    margin-top:30px; 
    
 }
 #input{

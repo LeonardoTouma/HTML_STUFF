@@ -95,6 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Grid system\Grid.html" />
+    <Content Include="Grid system\GridSystemSkola.html" />
     <Content Include="Grid system\Style me.css" />
     <Content Include="ImageLab3\Asus Transformer Book T100HA- 2990.PNG" />
     <Content Include="ImageLab3\Lenovo B50-10-2490.PNG" />
@@ -132,9 +133,11 @@
     <Content Include="receipt\recipe.html" />
     <Content Include="Sista uppgiften för Lab3\Mobile\Backside.html" />
     <Content Include="Sista uppgiften för Lab3\Mobile\Mobile.html" />
+    <Content Include="Sista uppgiften för Lab3\Mobile\tjena.html" />
     <Content Include="Sista uppgiften för Lab3\SkickIfrånMobil.html" />
     <Content Include="Sista uppgiften för Lab3\Style\Backside.css" />
     <Content Include="Sista uppgiften för Lab3\Style\FrontSide.css" />
+    <Content Include="Sista uppgiften för Lab3\Style\style.css" />
     <Content Include="Video\MrBean.webm" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

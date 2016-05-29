@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="sv-se">
 <head>
-    <title>Island</title>
+    <title>Bathala Island</title>
     <meta charset="utf-8" />
     <meta name="keywords" content="Island,Sea,Ocean,Relaxing" />
     <meta name="description" content="Everything about a island you need to know" />
@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="../Styles/Style.css" rel="stylesheet" />
 </head>
+<!--
 <div class="dropdown">
     <button onclick="myFunction()" class="dropbtn">Dropdown</button>
     <div id="myDropdown" class="dropdown-content">
@@ -29,41 +30,94 @@
     <div id="myDropdown" class="dropdown-content">
     </div>
 </div>
+-->
+<!--<body>
+    <div class="container">
+        <aside id="SidoInfo">
+            Firstname: <input type="text" /><br />
+            Lastname: <input type="text" /><br />
+            Email: <input type="email" required />
+            <input type="submit" value="Send" />
+        </aside>
+    </div>
+    <header>
+        <nav>
+            <ul>
+                <il><a href="html1.html">Hej</a></il><br />
+                <il><a href="html2.html">Hej</a></il>
+            </ul>
+        </nav>
+        <h1>Why Bathala? This is why!</h1>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 sm">
+                    <img id="Beach4"src="../Photos/beach4.jpg" />
+                </div>
+            </div>
+        </div>
+    </header>
+    <article>
+        <section> <h1>OKKKKK</h1></section>
+    </article>
+    <img id="Beach2"src="../Photos/beach2.jpg" class="image" />
+    <p>AutoAudio</p>
+    <audio autoplay loop>
+        <source src="../AutoAudio/Ocean_Waves-Mike_Koenig-980635527.mp3" type="Audio/mpeg" />
+    </audio>
+    <footer>
+        <address>
+            Leonardo Touma<br />
+            Ystadsgatan 14c<br />
+            123 45 Karlssonborg<br />
+        </address>
+        <small>Things that dosnt make sence, ever</small>
+        &copy;2016
+    </footer>
+</body>
+</html>-->
+
 <body>
-    <div id="Wrapper">
-        <header id="moving">
-            <nav>
-                <ul>
-                    <il><a href="html1.html">Hej</a></il>
-                    <br />
-                    <il><a href="html2.html">Hej</a></il>
-                </ul>
-            </nav>
-        </header>
-        <article>
-            <section> <h1>OKKKKK</h1></section>
-        </article>
-        <img src="../Photos/beach2.jpg" class="image" />
-        <p>AutoAudio</p>
-        <audio autoplay loop>
-            <source src="../AutoAudio/Ocean_Waves-Mike_Koenig-980635527.mp3" type="Audio/mpeg" />
-        </audio>
-        <footer>
+    <ul class="flex-container">
+        <li class="flex-item header">
+            <form action="" method="post">
+                <input id="sök" type=" placeholder="Sök" title="Search" name="search">
+                <input id="sök1" type="submit" class="button" value="Sök" name="submit">
+                <h1 id="H1">Bathala Island</h1>
+            </form><br />
+            <br />
+            <img id="beach1" src="../Photos/beach1.jpg" />
+            <div class="container">
+                <fieldset id="Fieldaside">
+                    <aside id="SidoInfo">
+                        <h2 id="H2">Send us an email of your questions</h2>
+                        Firstname: <input type="text" /><br />
+                        Lastname: <input type="text" /><br />
+                        Email: <input id="Email" type="email" required /><br />
+                        your wonder: <textarea rows="3"></textarea><br />
+                        <input type="submit" value="Send" />
+                    </aside>
+                </fieldset>
+            </div>
+        </li>
+        <li class="flex-item sidebar">
+            <img id="beach2" src="../Photos/beach2.jpg" />
+        </li>
+        <li class="flex-item main">Bathala is a pure and simple paradise for scuba divers and snorkellers alike. This Maldives resort boasts one of the best house reefs in the area frequented by a host of exciting marine life including grey reef sharks, nurse sharks, manta rays and eagle rays. There are six entry and exit points for direct access from the spectacular white sand beach. What’s more, there are more than 50 dive sites in the vicinity to explore. Start your day by diving with grey reef sharks on the house reef, exploring coral-encrusted caves and overhangs or taking a morning boat excursion to a fascinating thila or wreck.</li>
+        <li class="flex-item sidebar">
+        </li>
+        <li class="flex-item footer">
             <address>
                 Leonardo Touma<br />
                 Ystadsgatan 14c<br />
                 123 45 Karlssonborg<br />
+                <audio autoplay loop>
+                    <source src="../AutoAudio/Ocean_Waves-Mike_Koenig-980635527.mp3" type="Audio/mpeg" />
+                </audio>
             </address>
-            <small>Things that dosnt make sence, ever</small>
-            &copy;2016
-        </footer>
-    </div>
-    <aside>
-        Firstname: <input type="text" />
-        Lastname: <input type="text" />
-        Email: <input type="email" required />
-        <input type="submit" value="Send" />
-    </aside>
-    
+            </li>
+        </ul>
+    <p id="Minst">
+        <small>Things that dosnt make sence, ever</small>
+        &copy;2016
+    </p>
 </body>
-</html>

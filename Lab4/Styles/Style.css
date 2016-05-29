@@ -1,43 +1,16 @@
-﻿body {
+﻿/*body {
 }
-
-img:hover {
+h1{
+    text-align:center;
+}
+#Beach2:hover {
     background-color: #000000;
     display: block;
     width: 300px;
     height: 300px;
 }
-
-.dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-
-aside {
-    padding-left: 1000px;
+#SidoInfo{
+    float:left;
 }
 
 #moving {
@@ -66,3 +39,92 @@ aside {
             color: black;
             font-weight: 800;
         }
+        .container{
+            margin-top:10px;
+            border:2px solid black;
+            float:right;
+        }
+        .container-fluid{
+            border:2px solid black;
+            width:100px;
+        }
+        #Beach4{
+        }*/
+body{
+
+    background-color:blue;
+}
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  
+}
+
+.header,
+.footer  { flex: 1 100%; }
+.sidebar { flex: 3; }
+.main    { flex: 2; }
+
+.flex-item {
+  
+  background:lightblue;
+  padding: 10px;
+  width: 100px;
+  color: black;
+  font-size: 1em;
+}
+#beach1{
+    width:1000px;
+    height:300px;
+    float:left;
+}
+#beach1:hover{
+    /*FIXXXXXXXXXXXXXXXXXXXXXXAAAAAAAAAAAAAAAAAAAAAAAAAAAA till alla bilder!!*/
+}
+#beach2:hover{
+    /*FIXXXXXXXXXXXXXXXXXXXXXXAAAAAAAAAAAAAAAAAAAAAAAAAAAA till alla bilder!!*/
+}
+#sök{
+    float:right;
+    margin-top:-1px;
+    margin-right:19px;
+}
+#sök1{
+    margin-left:1144px;
+    margin-top:-1px;
+}
+#SidoInfo{
+    float:right;
+
+}
+#Fieldaside{
+    float:right;
+}
+    #Fieldaside:hover {
+        overflow: visible;
+        font-family: 'Book Antiqua';
+        width:330px;
+        height: 210px;
+        background-color: green;
+        color: black;
+    }
+    #H1{
+      text-align:center;
+    }
+    #H2{
+        font-family:'Colonna MT';
+        font-size:large;
+    }
+.flex-item main{
+    
+}
+#Minst{
+    color:black;
+    font-size:20px;
+}
+#utkant{
+    border-radius:50%;
+}
