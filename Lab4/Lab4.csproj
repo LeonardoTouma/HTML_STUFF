@@ -114,6 +114,8 @@
     <None Include="scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Pages\Contact.html" />
     <Content Include="Styles\StyleVideo.css" />
+    <Content Include="Video\VideosOfBathala\Bathala Island Resort 2016 April.mp4" />
+    <Content Include="Video\VideosOfBathala\Sun Paradise Maldives presents - Bathala Island Resort %281%29.mp4" />
     <Content Include="Video\Videos.html" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
