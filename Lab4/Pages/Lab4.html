@@ -7,6 +7,7 @@
     <meta name="description" content="Everything about a island you need to know" />
     <meta name="author" content="Leonardo Touma" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
     <link href="../Styles/Style.css" rel="stylesheet" />
 </head>
 <!--
@@ -77,35 +78,42 @@
 </html>-->
 
 <body>
-    <ul class="flex-container">
-        <li class="flex-item header">
+    <h1 id="mobile"></h1>
+    <h2 id="tablet"></h2>
+    <h2 id="screen"></h2>
+    <header class="flex-container">
+        <section class="flex-item header">
             <form action="" method="post">
                 <input id="sök" type=" placeholder="Sök" title="Search" name="search">
                 <input id="sök1" type="submit" class="button" value="Sök" name="submit">
                 <h1 id="H1">Bathala Island</h1>
             </form><br />
             <br />
+        </section>
+        <div class="container">
+            <img id="Loga" src="../Photos/Bathala Log.png" />
+        </div>
+        <div class="container">
+            <fieldset id="Fieldaside">
+                <aside id="SidoInfo">
+                    <h2 id="H2">Send us an email of your questions</h2>
+                    Firstname: <input type="text" /><br />
+                    Lastname: <input type="text" /><br />
+                    Email: <input id="Email" type="email" required /><br />
+                    Q/A:<textarea id="textarea"rows="2"></textarea><br />
+                    <input id="Submit" type="submit" value="Send" />
+                </aside>
+            </fieldset>
+        </div>
+        <section>
             <img id="beach1" src="../Photos/beach1.jpg" />
-            <div class="container">
-                <fieldset id="Fieldaside">
-                    <aside id="SidoInfo">
-                        <h2 id="H2">Send us an email of your questions</h2>
-                        Firstname: <input type="text" /><br />
-                        Lastname: <input type="text" /><br />
-                        Email: <input id="Email" type="email" required /><br />
-                        your wonder: <textarea rows="3"></textarea><br />
-                        <input type="submit" value="Send" />
-                    </aside>
-                </fieldset>
-            </div>
-        </li>
-        <li class="flex-item sidebar">
-            <img id="beach2" src="../Photos/beach2.jpg" />
-        </li>
-        <li class="flex-item main">Bathala is a pure and simple paradise for scuba divers and snorkellers alike. This Maldives resort boasts one of the best house reefs in the area frequented by a host of exciting marine life including grey reef sharks, nurse sharks, manta rays and eagle rays. There are six entry and exit points for direct access from the spectacular white sand beach. What’s more, there are more than 50 dive sites in the vicinity to explore. Start your day by diving with grey reef sharks on the house reef, exploring coral-encrusted caves and overhangs or taking a morning boat excursion to a fascinating thila or wreck.</li>
-        <li class="flex-item sidebar">
-        </li>
-        <li class="flex-item footer">
+        </section>
+        <section id="pure1">
+            <h1><strong>Pure</strong></h1>
+            <p id="Paragraf1">Bathala is a pure and simple paradise for scuba divers and snorkellers alike. This Maldives resort boasts one of the best house reefs in the area frequented by a host of exciting marine life including grey reef sharks, nurse sharks, manta rays and eagle rays. There are six entry and exit points for direct access from the spectacular white sand beach. What’s more, there are more than 50 dive sites in the vicinity to explore. Start your day by diving with grey reef sharks on the house reef, exploring coral-encrusted caves and overhangs or taking a morning boat excursion to a fascinating thila or wreck.</p>
+        </section>
+        <section class="flex-item sidebar"></section>
+        <adress class="flex-item footer">
             <address>
                 Leonardo Touma<br />
                 Ystadsgatan 14c<br />
@@ -114,8 +122,8 @@
                     <source src="../AutoAudio/Ocean_Waves-Mike_Koenig-980635527.mp3" type="Audio/mpeg" />
                 </audio>
             </address>
-        </li>
-    </ul>
+        </adress>
+    </header>
     <p id="Minst">
         <small>Things that dosnt make sence, ever</small>
         &copy;2016

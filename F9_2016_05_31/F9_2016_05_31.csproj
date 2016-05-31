@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{D3510120-7E4D-42DF-88CB-C1426CFC22EF}</ProjectGuid>
+    <ProjectGuid>{A3B99E7B-5DC9-44F1-A899-7BAAD37DD4C1}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Lab4</RootNamespace>
-    <AssemblyName>Lab4</AssemblyName>
+    <RootNamespace>F9_2016_05_31</RootNamespace>
+    <AssemblyName>F9_2016_05_31</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -94,41 +94,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap.min.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap-theme.min.css.map" />
-    <Content Include="Content\bootstrap-theme.css.map" />
-    <None Include="scripts\jquery-1.9.1.intellisense.js" />
-    <Content Include="Pages\Contact.html" />
-    <Content Include="Pages\Customers-Review.html" />
-    <Content Include="Pages\DreamPhotos.html" />
-    <Content Include="Pages\Landing-page.html" />
-    <Content Include="Pages\Maldive-Game.html" />
-    <Content Include="Photos\Bathala Log.png" />
-    <Content Include="Photos\Wings.jpg" />
-    <Content Include="Styles\StyleLanding.css" />
-    <Content Include="Styles\StyleVideo.css" />
-    <Content Include="Video\VideosOfBathala\Bathala Island Resort 2016 April.mp4" />
-    <Content Include="Video\VideosOfBathala\Sun Paradise Maldives presents - Bathala Island Resort %281%29.mp4" />
-    <Content Include="Video\Videos.html" />
-    <Content Include="scripts\bootstrap.js" />
-    <Content Include="scripts\bootstrap.min.js" />
-    <Content Include="scripts\jquery-1.9.1.js" />
-    <Content Include="scripts\jquery-1.9.1.min.js" />
-    <Content Include="scripts\jquery-1.9.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -137,26 +106,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AutoAudio\Ocean_Waves-Mike_Koenig-980635527.mp3" />
-    <Content Include="scripts\Jscript.js" />
-    <Content Include="Pages\Lab4.html" />
-    <Content Include="Photos\beach1.jpg" />
-    <Content Include="Photos\beach2.jpg" />
-    <Content Include="Photos\beach3.jpg" />
-    <Content Include="Photos\beach4.jpg" />
-    <Content Include="Photos\Ocean1.jpg" />
-    <Content Include="Photos\Ocean2.jpg" />
-    <Content Include="Photos\Ocean3.jpg" />
-    <Content Include="Photos\Ocean4.jpg" />
-    <Content Include="Photos\Ocean5.jpg" />
-    <Content Include="Photos\Sea1.jpg" />
-    <Content Include="Photos\sea2.jpg" />
-    <Content Include="Photos\sea3.jpg" />
-    <Content Include="Photos\sea4.jpg" />
-    <Content Include="Photos\sea5.jpg" />
+    <Content Include="Index.html" />
+    <Content Include="Pages\Flipping.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
-    <Content Include="Styles\Style.css" />
+    <Content Include="Styles\flip.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -176,9 +130,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>24645</DevelopmentServerPort>
+          <DevelopmentServerPort>63192</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:24645/</IISUrl>
+          <IISUrl>http://localhost:63192/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

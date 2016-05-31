@@ -1,0 +1,42 @@
+﻿@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+ header {
+  /* a column of two rows: logo+search (need a wrapper) and label */
+  display: flex;
+  flex-direction: column;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  order: 1;
+  /* row 1 of header */
+  justify-content: space-between;
+}
+label {
+  order: 2
+}
+/* row 2 of header */
+
+.search-form {
+  /* first in .wrapper  */
+}
+.logo {
+  /* second in .wrapper */
+}
+form {
+  display: flex;
+  justify-content: flex-end;
+}
+@media all and (min-width: 630px) {
+  .logo {
+    order: 1
+  }
+  .search-form {
+    order: 2;
+    align-items: center;
+    padding-right: 5px;
+  }
+}
+/* {
+  outline: 1px dashed red
+}
+/* just for debugging */

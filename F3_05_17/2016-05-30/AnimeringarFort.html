@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Transition/Transform</title>
+    <meta charset="utf-8" />
+    <style>
+        .Change {
+            background-color: white;
+            border: 2px solid black;
+            width: 100px;
+            height: 100px;
+           transition:background-color 2s, border-radius 5s, border 10s; /*Shorthand transition*/
+
+        }
+
+            .Change:hover {
+                background-color: hotpink;
+                color: aqua;
+                border: 2vw solid green;
+                border-radius: 30%/50%;
+                transform: rotate(90deg);
+                text-align: center;
+            }
+    </style>
+</head>
+<body>
+    <div class="Change">hej</div>
+    <div class="Change">hej</div>
+    <div class="Change">hej</div>
+    <div class="Change">hej</div>
+    <div class="Change">hej</div>
+    <div class="Change">hej</div>
+
+
+</body>
+</html>
