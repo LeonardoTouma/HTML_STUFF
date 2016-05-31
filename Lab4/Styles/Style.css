@@ -1,68 +1,11 @@
-﻿/*body {
-}
-h1{
-    text-align:center;
-}
-#Beach2:hover {
-    background-color: #000000;
-    display: block;
-    width: 300px;
-    height: 300px;
-}
-#SidoInfo{
-    float:left;
-}
-
-#moving {
-    background-color: rgba(150,150,150,.8);
-    border-radius: 30%/20%;
-    position: fixed;
-    bottom: 100px;
-    left: 1500px;
-}
-
-    #moving ul {
-        list-style-type: none;
-    }
-
-    #moving li {
-        border: 2px solid rgba(80,85,180,0.9);
-        width: 70%;
-        margin: 5px;
-        padding: 7px;
-        font-size: 1.4em;
-    }
-
-        #moving li a {
-            text-decoration: none;
-            text-transform: uppercase;
-            color: black;
-            font-weight: 800;
-        }
-        .container{
-            margin-top:10px;
-            border:2px solid black;
-            float:right;
-        }
-        .container-fluid{
-            border:2px solid black;
-            width:100px;
-        }
-        #Beach4{
-        }*/
+﻿
 body {
     width: 100%;
     background-color: chartreuse;
     text-align: center;
 }
 
-.container {
-        width: 630px;
-    /*background-color: lightblue;*/
-}
-
 .flex-container {
-    /*background-color: lightblue;*/
     padding: 0;
     margin: 0;
     list-style: none;
@@ -94,43 +37,37 @@ body {
 #beach1 {
     width: 100%;
     height: 300px;
-    float: left;
 }
 
-    /*#beach2 {
+#Loga {
+    width: 30%;
+    height:100px;
+}
+
+.container {
     width: 100%;
-    height: 100%;
-}*/
-
-    #beach1:hover {
-        /*FIXXXXXXXXXXXXXXXXXXXXXXAAAAAAAAAAAAAAAAAAAAAAAAAAAA till alla bilder!!*/
-    }
-
-#beach2:hover {
-    /*FIXXXXXXXXXXXXXXXXXXXXXXAAAAAAAAAAAAAAAAAAAAAAAAAAAA till alla bilder!!*/
+    float:right;
 }
 
 #sök {
     float: right;
-    /*margin-right: 980px;*/
 }
 
 #sök1 {
-    float:right;
-    /*margin-left: 150px;
-    margin-top: -1px;*/
-}
-
-#SidoInfo {
     float: right;
 }
-
-#Fieldaside:hover {
-    overflow: visible;
+#sidoinfo{
     font-family: 'Book Antiqua';
     width: 100%;
-    background-color: green;
+    background-color: chartreuse;
     color: black;
+}
+#sidoinfo:hover {
+    font-family: 'Book Antiqua';
+    width: 100%;
+    height: 100%;
+    background-color: chartreuse;
+    color: white;
 }
 
 #H1 {
@@ -145,13 +82,6 @@ body {
 .flex-item main {
 }
 
-#Minst {
-    border:2px dotted hotpink;
-    background-color: lightblue;
-    color: black;
-    font-size: 20px;
-}
-
 #utkant {
     border-radius: 50%;
 }
@@ -162,18 +92,6 @@ body {
 
 #Submit {
     margin-right: 100px;
-}
-
-/*#Paragraf1 {
-    background-color: lightblue;
-}
-
-#pure1 {
-    background-color: lightblue;
-}*/
-
-#Loga {
-    width: 200px;
 }
 
 #textarea {
@@ -199,6 +117,11 @@ body {
     #printscreen {
         display: none;
         font-family: 'Agency FB';
+    }
+
+    .atthetop {
+        background-color: black;
+        width: 100%;
     }
 }
 
@@ -253,4 +176,8 @@ body {
             display: none;
         }
     }
+}
+
+.atthetop {
+    background-color: black;
 }
