@@ -57,6 +57,7 @@ body {
 }
 
 .container {
+        width: 630px;
     /*background-color: lightblue;*/
 }
 
@@ -145,7 +146,8 @@ body {
 }
 
 #Minst {
-    background-color: blue;
+    border:2px dotted hotpink;
+    background-color: lightblue;
     color: black;
     font-size: 20px;
 }

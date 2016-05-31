@@ -117,8 +117,10 @@
     <Content Include="Pages\DreamPhotos.html" />
     <Content Include="Pages\Landing-page.html" />
     <Content Include="Pages\Maldive-Game.html" />
+    <Content Include="Photos\bakgrund waten.jpg" />
     <Content Include="Photos\Bathala Log.png" />
     <Content Include="Photos\Wings.jpg" />
+    <Content Include="Styles\StyleDream.css" />
     <Content Include="Styles\StyleLanding.css" />
     <Content Include="Styles\StyleVideo.css" />
     <Content Include="Video\VideosOfBathala\Bathala Island Resort 2016 April.mp4" />
@@ -151,7 +153,6 @@
     <Content Include="Photos\Ocean5.jpg" />
     <Content Include="Photos\Sea1.jpg" />
     <Content Include="Photos\sea2.jpg" />
-    <Content Include="Photos\sea3.jpg" />
     <Content Include="Photos\sea4.jpg" />
     <Content Include="Photos\sea5.jpg" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />

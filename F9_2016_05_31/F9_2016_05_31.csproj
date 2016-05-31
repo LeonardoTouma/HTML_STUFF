@@ -106,11 +106,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Pages\FlipTRY.html" />
     <Content Include="Index.html" />
     <Content Include="Pages\Flipping.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="Styles\flip.css" />
+    <Content Include="Styles\StyleFlipTry.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
