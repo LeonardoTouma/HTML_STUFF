@@ -1,0 +1,30 @@
+﻿body {
+    background-image: url('../Photos/bakgrund waten.jpg');
+    background-size: cover;
+}
+
+.container fieldset {
+    background-color: lightblue;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.atthetop {
+    background-color: #34383b;
+    color: black;
+    width: 100%;
+}
+
+.container {
+}
+
+.footer {
+    background-color: dimgray;
+    background-image: url('../Photos/bakgrund waten.jpg');
+    background-size: cover;
+}
+p{
+    background-color:#1a8f8f;
+}

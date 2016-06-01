@@ -1,8 +1,13 @@
 ﻿
 body {
-    width: 100%;
-    background-color: chartreuse;
-    text-align: center;
+    background-color: black;
+    background-image: url('../Photos/bakgrund waten.jpg');
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    float: left;
 }
 
 .flex-container {
@@ -27,7 +32,6 @@ body {
 }
 
 .flex-item {
-    background: lightblue;
     padding: 10px;
     width: 100%;
     color: black;
@@ -36,17 +40,21 @@ body {
 
 #beach1 {
     width: 100%;
-    height: 300px;
+    height: 200px;
+    float: left;
 }
 
 #Loga {
     width: 30%;
-    height:100px;
+    height: 100px;
 }
 
 .container {
     width: 100%;
-    float:right;
+    float: right;
+    position: relative;
+    perspective: 700px;
+    text-align: center;
 }
 
 #sök {
@@ -56,22 +64,22 @@ body {
 #sök1 {
     float: right;
 }
-#sidoinfo{
+
+#sidoinfo {
     font-family: 'Book Antiqua';
     width: 100%;
-    background-color: chartreuse;
     color: black;
 }
-#sidoinfo:hover {
-    font-family: 'Book Antiqua';
-    width: 100%;
-    height: 100%;
-    background-color: chartreuse;
-    color: white;
-}
+
+    #sidoinfo:hover {
+        font-family: 'Book Antiqua';
+        width: 100%;
+        height: 100%;
+        color: white;
+    }
 
 #H1 {
-    text-align: center;
+    text-align:center;
 }
 
 #H2 {
@@ -92,10 +100,11 @@ body {
 
 #Submit {
     margin-right: 100px;
+    color: black;
 }
 
 #textarea {
-    margin-left: 30px;
+    margin-left:38px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -120,7 +129,7 @@ body {
     }
 
     .atthetop {
-        background-color: black;
+        background-color:black;
         width: 100%;
     }
 }
@@ -128,7 +137,6 @@ body {
 @media (min-width: 480px) and (max-width: 768px) {
 
     body {
-        background-color: chartreuse;
     }
 
     #screen {
@@ -156,7 +164,6 @@ body {
     @media screen and (min-width:769px) and (max-width: 1024px) {
 
         body {
-            background-color: steelblue;
         }
 
         #screen {
@@ -179,5 +186,42 @@ body {
 }
 
 .atthetop {
-    background-color: black;
+    background-color:#34383b;
+    color:black
+}
+
+/*-------------------------------------------Hover för bild--------------------------------------*/
+.cartong figure {
+    margin: 0;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.card .front {
+}
+
+.cartong .back {
+    transform: rotateY(360deg);
+    background-color: red;
+}
+
+.cartong:hover {
+    transform: rotateY(360deg);
+}
+
+.tvo .card:hover {
+    transform: rotateX(360deg);
+}
+
+.cartong {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    /*preserve-3d motverkar att ytan minskas i 2d
+        och sen ökas i en fejkad 3d */
+    transition: transform 1s;
 }

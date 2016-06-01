@@ -117,11 +117,12 @@
     <Content Include="Pages\DreamPhotos.html" />
     <Content Include="Pages\Landing-page.html" />
     <Content Include="Pages\Maldive-Game.html" />
-    <Content Include="Pages\sad.css" />
+    <Content Include="Styles\sad.css" />
     <Content Include="Pages\Yep.html" />
     <Content Include="Photos\bakgrund waten.jpg" />
     <Content Include="Photos\Bathala Log.png" />
     <Content Include="Photos\Wings.jpg" />
+    <Content Include="Styles\StyleContact.css" />
     <Content Include="Styles\StyleDream.css" />
     <Content Include="Styles\StyleLanding.css" />
     <Content Include="Styles\StyleVideo.css" />

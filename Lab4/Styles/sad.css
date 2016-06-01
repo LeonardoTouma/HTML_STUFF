@@ -1,7 +1,7 @@
 ﻿body {
     background-color: #a01ee5;
 }
-/*3d-animeringar köärs i en container som vi stylar.
+/*3d-animeringar körs i en container som vi stylar.
     containern med fast storlek gör att vi inte 
     påverkar omgivningen under själva animeringen.*/
 .container {
