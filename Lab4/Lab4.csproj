@@ -99,6 +99,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Js.Script\JSfirstPage.js" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -115,16 +116,22 @@
     <Content Include="Pages\Contact.html" />
     <Content Include="Pages\Customers-Review.html" />
     <Content Include="Pages\DreamPhotos.html" />
-    <Content Include="Pages\Landing-page.html" />
     <Content Include="Pages\Maldive-Game.html" />
+    <Content Include="Photos\fatty.png" />
+    <Content Include="Photos\Fishi.gif" />
+    <Content Include="Photos\Val.png" />
+    <Content Include="Photos\val2.png" />
+    <Content Include="Photos\Vatten.jpg" />
     <Content Include="Styles\sad.css" />
     <Content Include="Pages\Yep.html" />
     <Content Include="Photos\bakgrund waten.jpg" />
     <Content Include="Photos\Bathala Log.png" />
     <Content Include="Photos\Wings.jpg" />
     <Content Include="Styles\StyleContact.css" />
+    <Content Include="Styles\StyleCustomer.css" />
     <Content Include="Styles\StyleDream.css" />
     <Content Include="Styles\StyleLanding.css" />
+    <Content Include="Styles\StyleMaldive.css" />
     <Content Include="Styles\StyleVideo.css" />
     <Content Include="Video\VideosOfBathala\Bathala Island Resort 2016 April.mp4" />
     <Content Include="Video\VideosOfBathala\Sun Paradise Maldives presents - Bathala Island Resort %281%29.mp4" />

@@ -8,6 +8,7 @@
     <meta name="author" content="Leonardo Touma" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <script src="../Js.Script/JSfirstPage.js"></script>
     <link href="../Styles/Style.css" rel="stylesheet" />
 </head>
 <body>
@@ -19,57 +20,67 @@
         <section class="flex-item header">
             <form action="" method="post">
                 <input id="sök" type=" placeholder="Sök" title="Search" name="search">
-                <input id="sök1" type="submit" class="button" value="Sök" name="submit" />
-                <nav>
-                    <ul class="container">
-                        <li> <a href="/Pages/DreamPhotos.html"><strong>Dreamphotos</strong></a></li>
+                <input type="button" id="sök1" onclick="saveValue('sök')" value="Submit" />
+                <nav class="navbar navbar-light bg-faded">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <ul class="nav navbar-nav">
                         <li><a href="/Pages/Lab4.html"><strong>First Page</strong></a></li>
+                        <a class="nav-link" href="#"><span class="sr-only">(current)</span></a>
+                        </li>
                         <li><a href="../Video/Videos.html"><strong>Video</strong></a></li>
+                        </li>
+                        <li><a href="../Pages/Maldive-Game.html">Maldive Game</a></li>
+                        </li>
+                        <li><a href="../Pages/Customers-Review.html">Customer Review</a></li>
+                        </li>
                     </ul>
                 </nav>
+
             </form><br />
             <br />
         </section>
-        <div class="container">
-            <figure>
-                <img id="Loga" src="../Photos/Bathala Log.png" />
+
+    </header>
+    <div class="container">
+        <figure>
+            <img id="Loga" src="../Photos/Bathala Log.png" />
+        </figure>
+    </div>
+    <div class="container">
+        <aside id="sidoinfo">
+            <h2 id="H2">Email questions</h2>
+            Firstname: <input id="text" type="text" /> <br />
+            Lastname: <input id="text1" type="text" /><br />
+            Email: <input id="Email" type="email" required /><br />
+            Q/A: <textarea id="textarea" rows="2"></textarea><br />
+            <input type="button" id="sökandet" onclick="saveValue('Email')" value="Submit" title="Good Information!" />
+        </aside>
+    </div>
+    <section class="container one">
+        <div class="cartong">
+            <figure class="sidoinfo">
+                <img id="beach1" src="../Photos/beach1.jpg" />
+            </figure>
+            <figure class="back">
+                Bathala is a pure and simple paradise for scuba divers and snorkellers alike.
             </figure>
         </div>
-        <div class="container">
-            <aside id="sidoinfo">
-                <h2 id="H2">Email questions</h2>
-                Firstname: <input type="text" /> <br />
-                Lastname: <input type="text" /><br />
-                Email: <input id="Email" type="email" required /><br />
-                Q/A: <textarea id="textarea" rows="2"></textarea><br />
-                <input id="Submit" type="submit" value="Send" />
-            </aside>
-        </div>
-        <section class="container one">
-            <div class="cartong">
-                <figure class="sidoinfo">
-                    <img id="beach1" src="../Photos/beach1.jpg" />
-                </figure>
-                <figure class="back">
-                    Bathala is a pure and simple paradise for scuba divers and snorkellers alike.
-                </figure>
-            </div>
+    </section>
+    <section class="sidoinfo"></section>
+    <section id="pure1">
+        <h1>Pure</h1>
+        <section id="section1">
+            Bathala is a pure and simple paradise for scuba divers and snorkellers alike. This Maldives resort boasts one of the best house reefs in the area frequented by a host of exciting marine life including grey reef sharks, nurse sharks, manta rays and eagle rays. There are six entry and exit points for direct access from the spectacular white sand beach. What’s more, there are more than 50 dive sites in the vicinity to explore. Start your day by diving with grey reef sharks on the house reef, exploring coral-encrusted caves and overhangs or taking a morning boat excursion to a fascinating thila or wreck.If you’re already a certified diver the friendly Werner Lau Dive Centre team can kit you out with equipment and then you’re free to dive the house reef with your buddy at your leisure, or if you’re a novice you can learn to dive with us. Perhaps you want to expand your experience, skills and knowledge with a diving course, taking you to the next level of certification. We offer a comprehensive range of SSI, CMAS and PADI courses for all levels, from beginners courses right up to dive master level.
         </section>
-        <section class="sidoinfo"></section>
-        <section id="pure1">
-            <h1>Pure</h1>
-            <section id="section1">
-                Bathala is a pure and simple paradise for scuba divers and snorkellers alike. This Maldives resort boasts one of the best house reefs in the area frequented by a host of exciting marine life including grey reef sharks, nurse sharks, manta rays and eagle rays. There are six entry and exit points for direct access from the spectacular white sand beach. What’s more, there are more than 50 dive sites in the vicinity to explore. Start your day by diving with grey reef sharks on the house reef, exploring coral-encrusted caves and overhangs or taking a morning boat excursion to a fascinating thila or wreck.If you’re already a certified diver the friendly Werner Lau Dive Centre team can kit you out with equipment and then you’re free to dive the house reef with your buddy at your leisure, or if you’re a novice you can learn to dive with us. Perhaps you want to expand your experience, skills and knowledge with a diving course, taking you to the next level of certification. We offer a comprehensive range of SSI, CMAS and PADI courses for all levels, from beginners courses right up to dive master level.
-            </section>
-            <p>
-                Whatever your skill level and requirements we have plenty of diving experiences available daily to entertain you There are also daily dive boat excursions to the incredible dive spots across Ari Atoll.
-                <h1>Even more Pure</h1>
-            <p>
-                Bathala itself is a charming and lush tropical island and our guests keep coming back year after year.
-            </p>
-        </section>
-        <section class="flex-item sidebar"></section>
-    </header>
+        <p>
+            Whatever your skill level and requirements we have plenty of diving experiences available daily to entertain you There are also daily dive boat excursions to the incredible dive spots across Ari Atoll.
+            <h1>Even more Pure</h1>
+        <p>
+            Bathala itself is a charming and lush tropical island and our guests keep coming back year after year.
+            your experience, skills and knowledge with a diving course, taking you to the next level of certification. We offer a comprehensive range of SSI, CMAS and PADI courses for all levels, from beginners courses right up to dive master level.
+        </p>
+    </section>
+    <section class="flex-item sidebar"></section>
     <div class="atthetop">
         <h2 id="about">About Bathala</h2>
         Governance & Management
@@ -90,6 +101,7 @@
                 Leonardo Touma<br />
                 Ystadsgatan 14c<br />
                 123 45 Karlssonborg<br />
+                School Project
                 <audio autoplay loop>
                     <source src="../AutoAudio/Ocean_Waves-Mike_Koenig-980635527.mp3" type="Audio/mpeg" />
                 </audio>

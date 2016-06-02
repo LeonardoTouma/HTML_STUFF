@@ -4,7 +4,9 @@ body {
     background-image: url('../Photos/bakgrund waten.jpg');
     background-size: cover;
 }
-
+header{
+    background-color:black;
+}
 ul {
     list-style-type: none;
     float: left;
@@ -51,10 +53,9 @@ ul {
 
 .container {
     width: 100%;
-    float: right;
     position: relative;
     perspective: 700px;
-    text-align: center;
+    text-align: left;
 }
 
 #sök {
@@ -75,7 +76,6 @@ ul {
         font-family: 'Book Antiqua';
         width: 100%;
         height: 100%;
-        color: white;
     }
 
 #H1 {
@@ -191,37 +191,51 @@ ul {
 }
 
 /*-------------------------------------------Hover för bild--------------------------------------*/
-.cartong figure {
+/*.cartong figure {
     margin: 0;
-    display: block;
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 100%;
-    backface-visibility: hidden;
-}
+       transform-style:preserve-3d;
 
-.card .front {
-}
+}*/
 
-.cartong .back {
-    transform: rotateY(360deg);
-    background-color: red;
+.front{
+   position:absolute;
+    z-index:2;
+    backface-visibility:hidden;
+    transform: rotateY(180deg);
+}
+.back {
+     position:absolute;
+    backface-visibility:hidden;
+   transform: rotateY(180deg);
+    text-align:center;
+    color:#aaa;
+    background-color:white;
 }
 
 .cartong:hover {
-    transform: rotateY(360deg);
+    transform: rotateY(200deg);
 }
-
-.tvo .card:hover {
-    transform: rotateX(360deg);
-}
-
 .cartong {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    transform-style: preserve-3d;
+  width:100%;
+    height:100%;
+    margin:0;
+    transform-style:preserve-3d;
+    transition:all 1.3s ease-in-out;
     /*preserve-3d motverkar att ytan minskas i 2d
         och sen ökas i en fejkad 3d */
-    transition: transform 1s;
+}
+.container .tvo{
+     position:relative;
+    margin:10px auto;
+    width:200px;
+    height:200px;
+}
+.container .il{
+    width: 100%;
+    position: relative;
+    perspective: 700px;
+    text-align: left;
 }

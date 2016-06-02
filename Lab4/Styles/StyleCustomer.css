@@ -1,0 +1,11 @@
+﻿body {
+    background-image: url('../Photos/bakgrund waten.jpg');
+    background-size: cover;
+}
+.attthetop{
+    background-color:#34383b;
+    color:black
+}
+header{
+    background-color:black;
+}

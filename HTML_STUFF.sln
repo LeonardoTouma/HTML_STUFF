@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab4", "Lab4\Lab4.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F9_2016_05_31", "F9_2016_05_31\F9_2016_05_31.csproj", "{A3B99E7B-5DC9-44F1-A899-7BAAD37DD4C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestJavaScript", "TestJavaScript\TestJavaScript.csproj", "{03AD9451-48FE-4D9F-B060-EF6F80EA6A6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{A3B99E7B-5DC9-44F1-A899-7BAAD37DD4C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3B99E7B-5DC9-44F1-A899-7BAAD37DD4C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3B99E7B-5DC9-44F1-A899-7BAAD37DD4C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03AD9451-48FE-4D9F-B060-EF6F80EA6A6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03AD9451-48FE-4D9F-B060-EF6F80EA6A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03AD9451-48FE-4D9F-B060-EF6F80EA6A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03AD9451-48FE-4D9F-B060-EF6F80EA6A6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

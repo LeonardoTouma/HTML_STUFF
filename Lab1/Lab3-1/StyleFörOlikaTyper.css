@@ -6,7 +6,7 @@
     #mobile {
         text-align: center;
         font-family: Algerian;
-        width:100%;
+        width: 100%;
     }
 
     #screen {
@@ -47,14 +47,15 @@
     #printscreen {
         display: none;
     }
+
     #picture {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
 }
 
-@media screen and (min-width:769px) and (max-width: 1024px) {
+@media screen and (min-width:770px) and (max-width: 1024px) {
 
     body {
         background-color: steelblue;
@@ -76,49 +77,13 @@
     #printscreen {
         display: none;
     }
+
     #picture {
-    position: relative;
-    width: 100%;
-    height: 100%;
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
 }
-}
-
-/*@media (min-width: 1024px) {
-
-    body {
-        background-color: white;
-        @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
-        font-family: 'Indie Flower', cursive;
-    }
-
-    #screen {
-        display: none;
-    }
-
-    #mobile {
-        display: none;
-    }
-
-    #tablet {
-        display: none;
-    }
-
-    #printscreen {
-        display: inherit;
-        text-align: center;
-    }
-    #picture {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-}
-
-#Meny {
-    width: 60%;
-}*/
-
-
 
 #moving {
     background-color: rgba(150,150,150,.8);
@@ -146,19 +111,22 @@
             color: black;
             font-weight: 800;
         }
-       @media print{
-           #screen
-           {
-               display:none;
-           }
-           #mobile{
-               display:none;
-           }
-           #tablet{
-               display:none;
-           }
-           #printscreen{
-               text-align:center;
-               display:inherit;
-           }
-       }
+
+@media print {
+    #screen {
+        display: none;
+    }
+
+    #mobile {
+        display: none;
+    }
+
+    #tablet {
+        display: none;
+    }
+
+    #printscreen {
+        text-align: center;
+        display: inherit;
+    }
+}

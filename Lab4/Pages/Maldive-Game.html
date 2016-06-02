@@ -1,17 +1,88 @@
 ﻿<!DOCTYPE html>
 <html>
+<head>
+    <title>The Maldive Game</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <script src="../scripts/bootstrap.min.js"></script>
+    <script src="../scripts/MaldiveGame.js"></script>
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../Styles/StyleMaldive.css" rel="stylesheet" />
+    <meta name="author" content="Leonardo Touma" />
+    <meta name="description" content="An amazing site of the Island Dhuvaafaru" />
+    <meta name="keywords" content="Maldive, Dhuvaafaru, Photo, Game, About" />
+</head>
 <body>
-
-    <canvas id="myCanvas" width="500" height="1000" style="border:1px solid #c3c3c3;">
-        Your browser does not support the HTML5 canvas tag.
-    </canvas>
-
-    <script>
-var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
-ctx.fillStyle = "lightblue";
-ctx.fillRect(0,0,1000,1000);
-    </script>
-
+    <header>
+        <nav>
+            <ul class="container">
+                <li><a href="/Pages/Lab4.html"><strong>First Page</strong></a></li>
+                <li> <a href="/Pages/DreamPhotos.html"><strong>Dreamphotos</strong></a></li>
+                <li><a href="../Video/Videos.html"><strong>Video</strong></a></li>
+                <li><a href="../Pages/Maldive-Game.html">Maldive Game</a></li>
+                <li><a href="../Pages/Customers-Review.html">Customer Review</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="water">
+        <div class="container">
+            <div class="aquarium">
+                <img class="diver" src="../Photos/fatty.png" />
+            </div>
+            <div class="aquarium">
+                <img class="fishi" src="../Photos/Fishi.gif" />
+            </div>
+            <div class="aquarium">
+                <img class="val" src="../Photos/Val.png" />
+            </div>
+            <div class="aquarium">
+                <img class="val2" src="../Photos/val2.png" />
+            </div>
+            <canvas id="MyMaldiveCanvas"></canvas>
+        </div>
+        <div class="container-fluid">
+            <footer class="footer navbar-fixed-bottom">
+                <address>
+                    Leonardo Touma<br />
+                    Ystadsgatan 14c<br />
+                    123 45 Karlssonborg<br />
+                </address>
+                <small>HTML5 and lab number 4</small>&copy;
+            </footer>
+        </div>
+        <canvas id="MyMaldiveCanvas"></canvas>
+        <div class="atthetop">
+            <h2 id="about">About Bathala</h2>
+            Governance & Management
+            Investor Center
+            Corporate Social Responsibility
+            PRESS & NEWS CENTER<br />
+            <h2 id="news">News</h2>
+            Events
+            Press Releases
+            CAREERS<br />
+            <h2 id="CONTACT US">Contact us</h2>
+            ENTERTAINMENT SERVICES
+            Front End
+            Virtual Reality
+            VFX<br />
+            <adress class="flex-item footer">
+                <address>
+                    Leonardo Touma<br />
+                    Ystadsgatan 14c<br />
+                    123 45 Karlssonborg<br />
+                    This is a School projekt<br />
+                    <audio autoplay loop>
+                        <source src="../AutoAudio/Ocean_Waves-Mike_Koenig-980635527.mp3" type="Audio/mpeg" />
+                    </audio>
+                </address>
+            </adress>
+            <h2 id="CONTACT US"> Innovation</h2>
+            Immersive Experiences
+            Our Vision
+            Research & Innovation
+            Scientific Literature
+        </div>
+    </div>
 </body>
 </html>

@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <link href="StyleJS.css" rel="stylesheet" />
+    <script type="text/javascript" language="javascript">
+        window.onload = draw;
+        function draw()
+        {
+            var canvas = document.getElementById("canvas1");
+            var ctx = canvas.getContext("2d");
+            ctx.beginPath();
+            ctx.moveTo(100, 50);
+            ctx.lineTo(130, 100);
+            ctx.lineTo(70, 100);
+            ctx.fill();
+
+
+            ctx.beginPath();
+            ctx.moveTo(72, 60);
+            ctx.lineTo(85, 72);
+            ctx.lineTo(71, 94);
+            ctx.lineTo(50, 70);
+            ctx.lineTo(65, 40);
+            ctx.fill();
+
+            ctx.beginPath();
+            ctx.moveTo(150, 100);
+            ctx.lineTo(40, 40);
+            ctx.lineTo(30, 30);
+            ctx.lineTo(20, 20);
+            ctx.lineTo(10, 10);
+            ctx.fill();
+        }
+
+    </script>
+</head>
+<body>
+    <canvas id="canvas1" width="400"height="300"></canvas>
+</body>
+</html>
